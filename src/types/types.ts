@@ -40,3 +40,15 @@ export interface BannerProps {
     isActive: boolean,
     checkForCorporates: boolean,
 }
+
+export interface ActiveBookingProps {
+  name: string;
+  status: string;
+  profile_image: string;
+  date: string;
+  day: string;
+  time: string;
+  type: string;
+  noOfTests: number;
+  typeOfTests: string;
+}

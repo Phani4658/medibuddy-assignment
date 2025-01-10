@@ -1,3 +1,4 @@
+import ActiveBookings from "@/components/ActiveBookings";
 import Banner from "@/components/Banner";
 import FAQs from "@/components/FAQs";
 import HealthCheckPackages from "@/components/HealthCheckPackages";
@@ -23,6 +24,7 @@ export default function Home({ pageConfig }: { pageConfig: any }) {
         <Banner bannerItems={pageConfig[1]} />
       </main>
       <HealthCheckPackages packages={pageConfig[2]} />
+      <ActiveBookings />
       <FAQs faqs={pageConfig[6]} />
     </div>
   );

@@ -49,7 +49,7 @@ export default function HealthCheckPackages({ packages }: { packages: any }) {
     <div className="bg-[#E8F2FE] px-6 py-4">
       <div className="flex font-semibold justify-between items-center">
         <h2>{packages.heading}</h2>
-        <p className="text-blue-600 text-sm cursor-pointer">View All</p>
+        <a href="" className="text-blue-600 text-sm cursor-pointer">View All</a>
       </div>
 
       <Tabs defaultValue={activeTab}>
@@ -75,7 +75,7 @@ export default function HealthCheckPackages({ packages }: { packages: any }) {
             <div className="py-2">
               {packagesToShow.length > 0 ? (
                 <ul className="flex overflow-scroll max-w-full space-x-3 no-scrollbar">
-                  {packagesToShow.map((pkg: any, index: number) => (
+                  {packagesToShow.map((pkg: any) => (
                     <PackageCard key={pkg.packageId} packageDetails={pkg} />
                   ))}
                 </ul>
