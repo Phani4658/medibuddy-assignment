@@ -6,7 +6,7 @@ import { BsCartDash } from "react-icons/bs";
 
 export default function Navbar() {
   return (
-    <nav className='flex justify-between'>
+    <nav className='flex justify-between default-margin'>
         <div className='flex items-center gap-2'>
             <FiArrowLeft size={24} />
             <div>
