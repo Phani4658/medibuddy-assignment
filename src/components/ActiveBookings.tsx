@@ -23,7 +23,7 @@ export default function ActiveBookings() {
   }, [api]);
 
   return (
-    <div className="default-margin space-y-4">
+    <section className="default-margin space-y-4">
       {/* Header Section */}
       <div className="flex items-center justify-between">
         <h2 className="text-xl font-bold">Your Active Bookings</h2>
@@ -60,6 +60,6 @@ export default function ActiveBookings() {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }

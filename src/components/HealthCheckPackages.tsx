@@ -46,8 +46,8 @@ export default function HealthCheckPackages({ packages }: { packages: any }) {
   },[])
 
   return (
-    <div className="bg-[#E8F2FE] px-6 py-4">
-      <div className="flex font-semibold justify-between items-center">
+    <section className="bg-[#E8F2FE] px-6 py-4">
+      <div className="flex font-semibold text-sm justify-between items-center">
         <h2>{packages.heading}</h2>
         <a href="" className="text-blue-600 text-sm cursor-pointer">View All</a>
       </div>
@@ -86,6 +86,6 @@ export default function HealthCheckPackages({ packages }: { packages: any }) {
           </TabsContent>
         ))}
       </Tabs>
-    </div>
+    </section>
   );
 }

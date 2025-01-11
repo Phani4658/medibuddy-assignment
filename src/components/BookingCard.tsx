@@ -22,15 +22,15 @@ export default function BookingCard({
       </div>
       <div className="bg-[#F6FAFF] grid grid-cols-3 items-center justify-center text-center p-2">
         <div className="">
-          <p className="font-bold">{bookingDetails.date}</p>
-          <p className="font-light">{bookingDetails.day}</p>
+          <p className="text-sm font-bold">{bookingDetails.date}</p>
+          <p className="text-sm font-light">{bookingDetails.day}</p>
         </div>
         <div className="">
-          <p className="font-bold">{bookingDetails.time}</p>
+          <p className="text-sm font-bold">{bookingDetails.time}</p>
           <p className="text-sm font-light">{bookingDetails.type}</p>
         </div>
         <div className="">
-          <p className="font-light">
+          <p className="text-sm font-light">
             <span className="font-bold">{bookingDetails.noOfTests}</span>{" "}
             {bookingDetails.typeOfTests}
           </p>

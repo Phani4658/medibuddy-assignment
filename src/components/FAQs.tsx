@@ -8,7 +8,7 @@ import {
 export default function FAQs({ faqs }: { faqs: any }) {
   return (
     <section className="default-margin mb-4">
-      <h2 className="text-xl font-semibold mb-6">Frequently Asked Questions</h2>
+      <h2 className="text-xl font-semibold mb-2">Frequently Asked Questions</h2>
       <Accordion type="multiple">
         {faqs.props.map((faq: any) => (
           <AccordionItem key={faq.id} value={faq.id.toString()}>
