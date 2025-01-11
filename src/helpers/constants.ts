@@ -123,3 +123,75 @@ export const lifeStyleFeatures = [
     displayText: "Hyper-Tension"
   }, 
 ]
+
+
+export const labsVisited = [
+  {
+    image: "/images/lab.png",
+    name: "Appolo Diagnostics",
+    location: "Kormanangala, Bangalore",
+    nextSlot: "07:30 AM, Tomorrow",
+    noOfRatings: 120,
+    averageRating: 4.5,
+  },
+  {
+    image: "/images/lab.png",
+    name: "Appolo Diagnostics",
+    location: "Kormanangala, Bangalore",
+    nextSlot: "07:30 AM, Tomorrow",
+    noOfRatings: 120,
+    averageRating: 4.5,
+  }
+]
+
+
+export const bookLabTests = {
+  categories: ["For Amazon Employees", "Center Visit", "Full Body Check up", "Diabetes", "Women Health"],
+  tests: [
+    {
+      name: "Complete Blood Count (CBC) - EDTA Whole Blood",
+      price: 800,
+      discountPrice: 500,
+      offerPercentage: 55,
+      avalibleIn: ['Home', 'Lab'],
+      reportTime: "10-12 Hours",
+      category: ["For Amazon Employees", "Center Visit", "Full Body Check up", "Diabetes", "Women Health"],
+      isCashless: true,
+    },
+    {
+      name: "Complete Blood Count (CBC) - EDTA Whole Blood",
+      price: 800,
+      discountPrice: 500,
+      offerPercentage: 55,
+      avalibleIn: ['Home', 'Lab'],
+      reportTime: "10-12 Hours",
+      category: ["For Amazon Employees", "Center Visit", "Full Body Check up", "Diabetes", "Women Health"],
+      isCashless: true,
+    },
+    {
+      name: "Complete Blood Count (CBC) - EDTA Whole Blood",
+      price: 800,
+      discountPrice: 500,
+      offerPercentage: 55,
+      avalibleIn: ['Home', 'Lab'],
+      reportTime: "10-12 Hours",
+      category: ["For Amazon Employees", "Center Visit", "Full Body Check up", "Diabetes", "Women Health"],
+      isCashless: true,
+    },
+    {
+      name: "Complete Blood Count (CBC) - EDTA Whole Blood",
+      price: 800,
+      discountPrice: 500,
+      offerPercentage: 55,
+      avalibleIn: ['Home', 'Lab'],
+      reportTime: "10-12 Hours",
+      category: ["For Amazon Employees", "Center Visit", "Full Body Check up", "Diabetes", "Women Health"],
+      isCashless: true,
+    }
+  ]
+}
+
+export const iconUrls: any = {
+  "Home" : "/icons/home.svg",
+  "Lab" : "/icons/lab.svg"
+}

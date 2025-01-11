@@ -3,7 +3,9 @@ import Banner from "@/components/Banner";
 import FAQs from "@/components/FAQs";
 import HealthCheckPackages from "@/components/HealthCheckPackages";
 import HeroIcons from "@/components/HeroIcons";
+import LabsVisited from "@/components/LabsVisited";
 import Navbar from "@/components/Navbar";
+import PopularLabTests from "@/components/PopularLabTests";
 import UserReview from "@/components/UserReview";
 import {
   howItWorks,
@@ -32,6 +34,8 @@ export default function Home({ pageConfig }: { pageConfig: any }) {
       </main>
       <HealthCheckPackages packages={pageConfig[2]} />
       <ActiveBookings />
+      <PopularLabTests />
+      <LabsVisited />
       <section className="default-margin">
         <div className="flex justify-between">
           <h2 className="text-lg font-bold">
@@ -76,7 +80,7 @@ export default function Home({ pageConfig }: { pageConfig: any }) {
         </ul>
       </section>
       <section className="default-margin space-y-3">
-        <h2 className="text-[#050A4E] text-2xl font-semibold">
+        <h2 className="text-[#050A4E] text-xl font-semibold">
           100% Safe & Secure Lab Tests
         </h2>
         <ul className="grid grid-cols-2 gap-4">

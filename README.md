@@ -1,50 +1,55 @@
-# React + TypeScript + Vite
+# MediBuddy Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## Expanding the ESLint configuration
+This repository contains the submission for the frontend assignment provided by Medibuddy. The assignment involves creating a responsive and interactive frontend application that demonstrates my ability to work with modern technologies, clean code practices, and design implementation.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Demo
 
-- Configure the top-level `parserOptions` property like this:
+You can find a deployed version of the project here: [Live Demo](https://medibuddy-assignment-euctyktfn-phanis-projects-a84fdf73.vercel.app/)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Features
+- Dynamic and reusable components.
+- Accessible UI following ARIA standards.
+- Integration with mock API for data fetching.
+- Clean and maintainable codebase.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Tech Stack
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+The project was built using the following technologies:
+- React.js (Frontend library)
+- TypeScript
+- TailwindCSS and Shadcn (Styling)
+- React Icons (For icons)
+- Fetch API (For API calls)
+- Vite / Create React App (Build tool)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Installation and Setup
+
+Follow the steps below to run the project locally:
+	
+1.	Clone the repository:
+    ```bash
+    git clone https://github.com/medibuddy-assignment.git
+    cd your-repo-name
+    ```
+
+
+2.	Install dependencies:
+    ```bash
+    npm install
+    # OR
+    yarn install
+    ```
+3. Start the development server:
+    ```
+    npm run dev
+    # OR
+    yarn dev
+    ```
+
+
+4.	Open the app in your browser at http://localhost:5173.
+

@@ -16,7 +16,7 @@ export default function UserReview({ reviews }: { reviews: any }) {
 
   return (
     <section className="default-margin space-y-4">
-      <h1 className="font-semibold text-xl">What Our Users Say</h1>
+      <h2 className="font-semibold text-xl">{reviews.title}</h2>
       {reviews.props && reviews.props.length > 0 ? (
         <Carousel
           opts={{

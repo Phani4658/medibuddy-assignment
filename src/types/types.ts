@@ -52,3 +52,15 @@ export interface ActiveBookingProps {
   noOfTests: number;
   typeOfTests: string;
 }
+
+
+export interface LabTestProps {
+  name: string;
+  price: number;
+  discountPrice: number;
+  offerPercentage: number;
+  avalibleIn: string[];
+  reportTime: string;
+  category: string[];
+  isCashless: boolean;
+}
