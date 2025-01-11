@@ -52,7 +52,7 @@ export default function Home({ pageConfig }: { pageConfig: any }) {
       </section>
       <UserReview reviews={pageConfig[5]} />
       <section className="default-margin space-y-3">
-        <h2 className="text-xl font-bold">
+        <h2 className="font-semibold">
           Lifestyle Health Check-up Packages
         </h2>
         <ul className="grid grid-cols-3 gap-4">
